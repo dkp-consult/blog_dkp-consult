@@ -1,16 +1,18 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Debski Pierre
+avatar: /static/images/picsofme.jpg
+occupation: Hummm
+<!-- company: Stanford University --->
+email: contact@dkp-consult.be
+twitter: https://twitter.com/dkp_consult
+<!--- linkedin: https://www.linkedin.com --->
+github: https://github.com/dkp-consult
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Salut, je suis Pierre Debski, "développeur". Dans le cadre de mon apprentissage et de mes projets, j'ai envie de partager mon quotidien, mes trucs. Car si j'arrive à me former grâce aux ressources mise à disposition par la communauté, j'espère que le partage pourra servir d'autres personnes. Les trois sujets dont je vais parler sont :
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Des infos "tout public", bien trop souvent je vois des informations erronnées circuler, des croyances non fondées. Et je suis convaincu qu'une bonne information, faciliterait l'appréhension de nos smartphones, ordi et tablette. Et puis quelques connaissances basique, peuvent fondamentalement modifié l'usage de nos appareils.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Ensuite, je vais faire de ce lieu mon carnet de note, dans mon apprentissage, j'ai rencontré certaines difficultés et il est bon de s'en rappeller, je vais donc me faire mes propres mémos, que je partagerais avec vous. Si j'ai rencontré un problème, quelqu'un d'autre pourrait avoir besoin de ma solution.
+
+Pour finir, quand ma maîtrise technique sera plus grande, je partagerais des ressources et informations liées au développement. Mais actuellement, je suis trop néophyte pour ce faire.
