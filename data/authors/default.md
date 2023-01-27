@@ -1,5 +1,5 @@
 ---
-name: Debski Pierre
+name: Pierre Debski
 avatar: /static/images/picsofme.jpg
 occupation: Hummm
 <!-- company: Stanford University --->
