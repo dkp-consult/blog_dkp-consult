@@ -7,9 +7,9 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.dkp-consult.be',
   siteRepo: 'https://github.com/dkp-consult/blog.dkp-consult',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  siteLogo: '/static/images/logo-nosquare.png',
+  image: '/static/images/picsofme.png',
+  socialBanner: '/static/images/laptop.png',
   email: 'contact@dkp-consult.be',
   github: 'https://github.com/dkp-consult',
   twitter: 'https://twitter.com/dkp_consult',
