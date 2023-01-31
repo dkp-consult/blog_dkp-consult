@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'dkp-consult - le blog',
   author: 'Debski Pierre',
   headerTitle: '',
-  description: "Le blog d'un développeur en devenir",
+  description: 'Le blog d\'un développeur en devenir',
   language: 'fr-be',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.dkp-consult.be',
