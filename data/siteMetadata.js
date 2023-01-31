@@ -9,7 +9,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/dkp-consult/blog.dkp-consult',
   siteLogo: '/static/images/logo-nosquare.png',
   image: '/static/images/picsofme.png',
-  socialBanner: '/static/images/laptop.png',
+  socialBanner: '/static/images/laptop.jpg',
   email: 'contact@dkp-consult.be',
   github: 'https://github.com/dkp-consult',
   twitter: 'https://twitter.com/dkp_consult',
