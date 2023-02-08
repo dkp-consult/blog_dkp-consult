@@ -7,7 +7,6 @@ import TOCInline from './TOCInline'
 import Pre from './Pre'
 import { BlogNewsletterForm } from './NewsletterForm'
 
-
 export const MDXComponents = {
   Image,
   TOCInline,

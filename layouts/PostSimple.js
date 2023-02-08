@@ -63,13 +63,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </div>
                 )}
               </div>
-              <TwitterShareButton
-  url={'https://www.example.com'}
-  quote={'Dummy text!'}
-  hashtag="#muo"
->
-  <TwitterIcon size={32} round />
-</TwitterShareButton>
             </footer>
           </div>
         </div>
