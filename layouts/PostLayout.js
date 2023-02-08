@@ -7,6 +7,8 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import { TwitterShareButton, TwitterIcon } from 'react-share'
+import { FacebookShareButton, FacebookIcon } from 'react-share'
+
 // import sharingButtonTwitter from '@/components/Share-Twitter'
 // import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
@@ -95,13 +97,22 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 </Link>
                 {` • `}
                 <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
-                  {<TwitterShareButton
-                  title={title}
-                  via={'dkp_consult'}
-                  url={'https://blog.dkp-consult.be/blog/'+(slug)}
+                {
+                  <TwitterShareButton
+                    title={title}
+                    via={'dkp_consult'}
+                    url={'https://blog.dkp-consult.be/blog/' + slug}
+                  >
+                    <TwitterIcon size={32} round />
+                  </TwitterShareButton>
+                }
+
+                <FacebookShareButton
+                  hashtag={title}
+                  url={'https://blog.dkp-consult.be/blog/' + slug}
                 >
-                  <TwitterIcon size={32} round />
-                </TwitterShareButton> }
+                  <FacebookIcon size={32} round />
+                </FacebookShareButton>
               </div>
               <Comments frontMatter={frontMatter} />
             </div>
