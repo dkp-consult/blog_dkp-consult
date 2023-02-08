@@ -6,6 +6,8 @@ import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
+import { TwitterShareButton, TwitterIcon } from 'react-share'
+// import sharingButtonTwitter from '@/components/Share-Twitter'
 // import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
@@ -93,6 +95,13 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 </Link>
                 {` • `}
                 <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
+                  {<TwitterShareButton
+                  title={title}
+                  via={'dkp_consult'}
+                  url={'https://blog.dkp-consult.be/blog/'+(slug)}
+                >
+                  <TwitterIcon size={32} round />
+                </TwitterShareButton> }
               </div>
               <Comments frontMatter={frontMatter} />
             </div>

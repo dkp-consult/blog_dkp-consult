@@ -5,6 +5,7 @@ import { BlogSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import formatDate from '@/lib/utils/formatDate'
 import Comments from '@/components/comments'
+// sharebutton import needed
 // import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
@@ -62,6 +63,13 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </div>
                 )}
               </div>
+              <TwitterShareButton
+  url={'https://www.example.com'}
+  quote={'Dummy text!'}
+  hashtag="#muo"
+>
+  <TwitterIcon size={32} round />
+</TwitterShareButton>
             </footer>
           </div>
         </div>
