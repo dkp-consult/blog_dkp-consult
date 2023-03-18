@@ -4,7 +4,7 @@ date: '2023-03-18'
 tags: ['écologie-numérique','econumerique','tout public']
 draft: false
 summary: Ce 18 mars, c’est le Digital Cleanup Day -  https://www.digitalcleanupday.org/. Voici quelques trucs et astuces à ce propos.
-images: ['/static/images/trash-can.svg']
+images: ['/static/images/laptop.jpg']
 layout: PostLayout
 canonicalUrl: https://blog.dkp-consult.be/blog/for-all/econumerique
 ---
