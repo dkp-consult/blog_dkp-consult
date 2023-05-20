@@ -1,7 +1,7 @@
 ---
 name: Pierre Debski
 avatar: /static/images/picsofme.jpg
-occupation: Hummm
+occupation: Banker and self thaught developer
 <!-- company: Stanford University --->
 email: contact@dkp-consult.be
 twitter: https://twitter.com/dkp_consult
