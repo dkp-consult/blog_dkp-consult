@@ -1,7 +1,7 @@
 ---
 title: Gestion de ses données numériques
 date: '2023-05-26'
-tags: ['cloud','fichiers','sauvegarde','donées']
+tags: ['cloud','fichiers','sauvegarde','données']
 draft: false
 summary: Aujourd'hui, nous utilisons énormément d'outils numériques et stockons des fichiers multiples (documents, e-mails, photos, etc.). Cependant, est-ce que notre méthode et les outils que nous utilisons pour gérer toutes ces données sont efficaces ? Que faut-il faire et comment le faire pour optimiser cette gestion ?
 images: ['/static/images/data.webp']
