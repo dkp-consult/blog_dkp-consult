@@ -10,7 +10,7 @@ canonicalUrl: https://blog.dkp-consult.be/blog/numerique-loustiques/le-numerique
 ---
 # Les résaux sociaux...
 
-![Représentation des réseaux sociaux](/static/images/resaux.jpg "Représentation des réseaux sociaux")
+![Représentation des réseaux sociaux](/static/images/resaux.jpg) "Représentation des réseaux sociaux")
 
 Le volet social, autrement dit, les réseaux sociaux, on pourrait écrire des livres à ce sujet, bien qu'il en existe sans doute et tout un tas d'analyses sur leurs effets néfastes de certains usages de ceux-ci.
 
