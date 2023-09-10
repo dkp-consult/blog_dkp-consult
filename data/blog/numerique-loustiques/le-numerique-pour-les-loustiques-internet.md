@@ -4,13 +4,13 @@ date: '2023-09-03'
 tags: ['tout public','informatique','numerique loustiques','enfants']
 draft: false
 summary: Découvrez l'univers fascinant d'Internet. Imaginez-le comme une immense bibliothèque virtuelle, une source inestimable d'informations, de divertissement et de connexion. Suivez-nous dans cette série pour explorer chaque facette de cette toile mondiale captivante.
-images: [/static/images/internet.jpg']
+images: [/static/images/internet.jpeg']
 layout: PostLayout
 canonicalUrl: https://blog.dkp-consult.be/blog/numerique-loustiques/le-numerique-pour-les-loustiques-internet
 ---
 # Internet, c'est quoi au fond ?
 
-![Représentation imagée de ce qu'est internet](/static/images/internet.jpg "Représentation imagée de ce qu'est internet")
+![Représentation imagée de ce qu'est internet](/static/images/internet.jpeg "Représentation imagée de ce qu'est internet")
 
 J’espère que cette première semaine de rentrée était agréable pour tout le monde !
 

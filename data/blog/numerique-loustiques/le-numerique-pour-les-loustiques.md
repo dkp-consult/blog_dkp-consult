@@ -4,13 +4,13 @@ date: '2023-08-27'
 tags: ['tout public','informatique','numerique loustiques','enfants']
 draft: false
 summary: Le numérique pour les Loustiques, un guide accessible pour naviguer dans l'univers digital en famille. Ensemble, apprenons à accompagner nos enfants dans leur exploration.
-images: [/static/images/rentree.jpg']
+images: [/static/images/rentree.jpeg']
 layout: PostLayout
 canonicalUrl: https://blog.dkp-consult.be/blog/numerique-loustiques/le-numerique-pour-les-loustiques
 ---
 # C’est la rentrée, partons sur une bonne lancée ! 
 
-![Cahier avec lunettes, porte-mine et crayon](/static/images/rentree.jpg "Cahier avec lunettes, porte-mine et crayon")
+![Cahier avec lunettes, porte-mine et crayon](/static/images/rentree.jpeg "Cahier avec lunettes, porte-mine et crayon")
 
 
 Qui dit rentrée scolaire, dit nouvelles habitudes, nouveaux outils et nouveaux acquis à venir.
