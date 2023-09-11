@@ -4,7 +4,7 @@ date: '2023-09-03'
 tags: ['tout public','informatique','numerique loustiques','enfants']
 draft: false
 summary: Découvrez l'univers fascinant d'Internet. Imaginez-le comme une immense bibliothèque virtuelle, une source inestimable d'informations, de divertissement et de connexion. Suivez-nous dans cette série pour explorer chaque facette de cette toile mondiale captivante.
-images: [/static/images/internet.jpeg']
+images: ['/static/images/internet.jpeg']
 layout: PostLayout
 canonicalUrl: https://blog.dkp-consult.be/blog/numerique-loustiques/le-numerique-pour-les-loustiques-internet
 ---

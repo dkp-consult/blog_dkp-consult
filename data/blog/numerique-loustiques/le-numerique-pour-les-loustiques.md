@@ -4,7 +4,7 @@ date: '2023-08-27'
 tags: ['tout public','informatique','numerique loustiques','enfants']
 draft: false
 summary: Le numérique pour les Loustiques, un guide accessible pour naviguer dans l'univers digital en famille. Ensemble, apprenons à accompagner nos enfants dans leur exploration.
-images: [/static/images/rentree.jpeg']
+images: ['/static/images/rentree.jpeg']
 layout: PostLayout
 canonicalUrl: https://blog.dkp-consult.be/blog/numerique-loustiques/le-numerique-pour-les-loustiques
 ---

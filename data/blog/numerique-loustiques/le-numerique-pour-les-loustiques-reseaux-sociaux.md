@@ -4,7 +4,7 @@ date: '2023-09-10'
 tags: ['tout public','informatique','numerique loustiques','enfants']
 draft: false
 summary: Cet article examine le monde des réseaux sociaux et comment les parents peuvent guider leurs enfants dans leur utilisation. Il met en évidence les avantages et les inconvénients des réseaux sociaux, les évolutions depuis les débuts d'Internet, et les points essentiels à aborder avec les enfants pour une utilisation responsable des médias sociaux. Il souligne également l'importance de la modération et du temps passé en ligne.
-images: [/static/images/reseauxbis.jpg']
+images: ['/static/images/reseauxbis.jpg']
 layout: PostLayout
 canonicalUrl: https://blog.dkp-consult.be/blog/numerique-loustiques/le-numerique-pour-les-loustiques-resaux-sociaux
 ---
