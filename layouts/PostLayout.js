@@ -107,7 +107,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     <TwitterIcon size={32} round />
                   </TwitterShareButton>
                 }
-
                 <FacebookShareButton url={'https://blog.dkp-consult.be/blog/' + slug}>
                   <FacebookIcon size={32} round />
                 </FacebookShareButton>
