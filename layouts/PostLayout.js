@@ -91,7 +91,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
-              <div className="space-x-3 pt-6 pb-6 text-center text-sm text-gray-700 dark:text-gray-300 flex-column">
+              <div className="flex-column space-x-3 pt-6 pb-6 text-center text-sm text-gray-700 dark:text-gray-300">
                 <p className="pb-6">{"Partagez l'article :"}</p>{' '}
                 {/*                 <Link href={discussUrl(slug)} rel="nofollow">
                   {'Discuss on Twitter'}
