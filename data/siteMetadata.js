@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Pierre Debski',
   headerTitle: '',
   // eslint-disable-next-line prettier/prettier
-  description: 'Le blog d\'un développeur en apprentisage permanent',
+  description: 'Le blog d\'un développeur',
   language: 'fr-be',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.dkp-consult.be',
@@ -14,9 +14,9 @@ const siteMetadata = {
   email: 'contact@dkp-consult.be',
   github: 'https://github.com/dkp-consult',
   twitter: 'https://twitter.com/dkp_consult',
-  //  facebook: 'https://facebook.com',
+  facebook: 'https://www.facebook.com/dkpconsult',
   //  youtube: 'https://youtube.com',
-  //  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/pierre-debski/',
   locale: 'fr-BE',
   analytics: {},
   newsletter: {},

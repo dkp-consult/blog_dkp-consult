@@ -6,6 +6,10 @@ import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
+import { TwitterShareButton, TwitterIcon } from 'react-share'
+import { FacebookShareButton, FacebookIcon } from 'react-share'
+
+// import sharingButtonTwitter from '@/components/Share-Twitter'
 // import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
@@ -87,12 +91,25 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
-              <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
-                <Link href={discussUrl(slug)} rel="nofollow">
+              <div className="space-x-3 pt-6 pb-6 text-center text-sm text-gray-700 dark:text-gray-300">
+                {/*                 <Link href={discussUrl(slug)} rel="nofollow">
                   {'Discuss on Twitter'}
-                </Link>
-                {` • `}
-                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
+                </Link> */}
+                {/* {` • `} */}
+                {/* {<Link href={editUrl(fileName)}>{'View on GitHub'}</Link>} */}
+                {
+                  <TwitterShareButton
+                    title={title}
+                    via={'dkp_consult'}
+                    url={'https://blog.dkp-consult.be/blog/' + slug}
+                  >
+                    <TwitterIcon size={32} round />
+                  </TwitterShareButton>
+                }
+
+                <FacebookShareButton url={'https://blog.dkp-consult.be/blog/' + slug}>
+                  <FacebookIcon size={32} round />
+                </FacebookShareButton>
               </div>
               <Comments frontMatter={frontMatter} />
             </div>
@@ -115,7 +132,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     {prev && (
                       <div>
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                          Previous Article
+                          Article précédent
                         </h2>
                         <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                           <Link href={`/blog/${prev.slug}`}>{prev.title}</Link>
@@ -125,7 +142,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     {next && (
                       <div>
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                          Next Article
+                          Article suivant
                         </h2>
                         <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                           <Link href={`/blog/${next.slug}`}>{next.title}</Link>
@@ -140,7 +157,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   href="/blog"
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                 >
-                  &larr; Back to the blog
+                  &larr; Retour au blog
                 </Link>
               </div>
             </footer>
