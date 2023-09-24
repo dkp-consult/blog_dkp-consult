@@ -21,7 +21,7 @@ Pour mettre les choses au point dès le départ, on ne discutera pas de si c'est
 
 Aujourd'hui, en trois clics de souris ou deux glissements de doigts, il est possible de commander le nouvel article tant attendu, des vêtements, des livres, des jeux, des accessoires technologiques, tout est disponible à la commande en ligne. Il est donc d'autant plus nécessaire d'avoir quelques astuces pour éviter de tomber dans le piège des arnaques.
 
-Sur Internet, vous trouverez déjà de nombreux articles vous invitant à vérifier que le site est sécurisé et fiable, etc. Mais ici, nous allons aborder les choses d'une manière différente, au travers une mise en situation.
+Sur Internet, vous trouverez déjà de nombreux articles vous invitant à vérifier que le site est sécurisé et fiable, etc. Mais ici, nous allons aborder les choses d'une manière différente, au travers d'une mise en situation.
 
 Pour moi, faire des achats en ligne ne doit pas se faire sans réfléchir, car vous avez sans doute déjà vu les petites cases qui vous font souscrire à un abonnement ou vous engagent à acheter mensuellement. 
 
