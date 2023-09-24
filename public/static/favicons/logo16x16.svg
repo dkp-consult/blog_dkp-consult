@@ -9,14 +9,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   id="svg935"
-   width="34.133331"
-   height="34.133331"
-   viewBox="0 0 34.133331 34.133331"
+   id="svg901"
+   width="17.066668"
+   height="17.066668"
+   viewBox="0 0 17.066668 17.066668"
    sodipodi:docname="logo16x16.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
   <metadata
-     id="metadata941">
+     id="metadata907">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -28,7 +28,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs939" />
+     id="defs905" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -40,64 +40,43 @@
      inkscape:pageshadow="2"
      inkscape:window-width="968"
      inkscape:window-height="480"
-     id="namedview937"
+     id="namedview903"
      showgrid="false"
-     inkscape:zoom="25.078126"
-     inkscape:cx="17.066666"
-     inkscape:cy="17.066666"
-     inkscape:window-x="206"
-     inkscape:window-y="287"
+     inkscape:zoom="50.156247"
+     inkscape:cx="8.5333338"
+     inkscape:cy="8.5333338"
+     inkscape:window-x="370"
+     inkscape:window-y="282"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g943" />
+     inkscape:current-layer="g909" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
-     id="g943">
+     id="g909">
     <image
-       width="34.133331"
-       height="34.133331"
+       width="17.066668"
+       height="17.066668"
        preserveAspectRatio="none"
-       xlink:href="data:image/png;base64,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
-AABJRU5ErkJggg==
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9
+kT1Iw0AcxV9TxSoVQTsUcchQBcGCqIijVqEIFUqt0KqDyaVf0KQhSXFxFFwLDn4sVh1cnHV1cBUE
+wQ8QVxcnRRcp8X9JoUWMB8f9eHfvcfcOEOplppod44CqWUYqHhMz2VWx6xXdCCOAfoxKzNTnkskE
+PMfXPXx8vYvyLO9zf45eJWcywCcSzzLdsIg3iKc3LZ3zPnGIFSWF+Jx4zKALEj9yXXb5jXPBYYFn
+hox0ap44RCwW2lhuY1Y0VOIp4oiiapQvZFxWOG9xVstV1rwnf2Ewp60sc53mEOJYxBKSECGjihLK
+sBClVSPFRIr2Yx7+QcefJJdMrhIYORZQgQrJ8YP/we9uzfzkhJsUjAGdL7b9MQx07QKNmm1/H9t2
+4wTwPwNXWstfqQMzn6TXWlrkCOjbBi6uW5q8B1zuAOEnXTIkR/LTFPJ54P2MvikLDNwCPWtub819
+nD4AaeoqcQMcHAIjBcpe93h3oL23f880+/sBa6RypCezk1oAAAAGYktHRAD/AL0AWewW+OAAAAAJ
+cEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfnCRgIIgz/P8coAAACBklEQVQ4y81T32tScRT/fO+9
+zimmbdnYHANrTuMyGUPwobguNyojeonr9jL2sj/A+g9kDxH1etdjGT0ttpcikh562jKElJKUq8lF
+ZBGG1Z1zy+m9373shkiDPRR0ns45nx+HA+cA/02okhBSJWH6BDyXKgm3jJrrwhoAMqokfKCc43Ft
+5n6aMmwAgA1AxpletXNqdhnANQB3DBHpdn/76F51aCo0rNnOsL0YALCtXc26nTnYevMiEH3wvAAA
+jAGKohhJ7/Q7pafPSLFY1CmltFvcp35pn/60TnZ+/mDXlL6l36ZGwvP8Q6/X6yGEkGQyyZZKJepw
+OLRhtqUN5DeI7fMTjmgt5AZmkP2Ym+R5Xsrn823maPokgCvlchnhcFgHgGq1yiQSCc60ucKY6psM
+ADTHxc52rU4ADAJY6l4hBgCKorB2u50Eg8F27/66eZTuufycoihGKyaKImFEUTwLYNFr0zrLE3ua
+5WseoVCI7TVoeqLU1PyuR7isfsnZ7gC4AOA6G5v1TC1ONMw3zjfomP2g31p/b+VGL+IXZ9EqlQoT
+Gdun3Cm33hi/isHMKhkxf+tMD+0XLo+03lkIU/3ToVhqG3cDqVRKnpubpS9vB7TC6/Xdytarm6ok
+OE98mbIs++LxuDo/H9VzudzCcTzmOMDn88kulyt6zu1e8fv9a//id8x/xegQrDnCwlwYeiMAAAAA
+SUVORK5CYII=
 "
-       id="image945" />
+       id="image911" />
   </g>
 </svg>
