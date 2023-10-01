@@ -1,6 +1,6 @@
 ---
 title: Le numérique pour les Loustiques - Connaissances
-date: '2023-09-17'
+date: '2023-10-01'
 tags: ['tout public','informatique','numerique loustiques','enfants']
 draft: false
 summary: Découvrez comment Internet est une source inestimable de connaissances, offrant une bibliothèque virtuelle de ressources pour tous les âges. De jeux éducatifs à des cours en ligne de renommée mondiale, cet article explore des sources d'apprentissage en ligne. N'attendez plus, plongez dans le monde de l'apprentissage en ligne.
