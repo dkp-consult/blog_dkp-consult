@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Pierre Debski',
   headerTitle: '',
   // eslint-disable-next-line prettier/prettier
-  description: 'Le blog d\'un développeur',
+  description: 'Entre lignes de code et lignes de vie, mon blog est le carrefour où se rencontrent mes expériences de développeur freelance et mes réflexions sur les faits de société',
   language: 'fr-be',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.dkp-consult.be',

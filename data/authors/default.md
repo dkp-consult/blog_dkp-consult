@@ -1,8 +1,8 @@
 ---
 name: Pierre Debski
 avatar: /static/images/picsofme.jpg
-occupation: Banker and self thaught developer
-company: Freelancing
+occupation: Freelance dev & webmaster
+company: Freelancing @dkp-consult
 email: contact@dkp-consult.be
 twitter: https://twitter.com/dkp_consult
 linkedin: https://www.linkedin.com/in/pierre-debski/
