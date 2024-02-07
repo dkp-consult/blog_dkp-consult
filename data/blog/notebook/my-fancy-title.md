@@ -8,3 +8,7 @@ images: []
 ---
 
 Draft post which should not display
+
+<pre>
+`<h1>Hello</h1>`
+</pre>
