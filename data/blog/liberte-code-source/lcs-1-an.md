@@ -20,7 +20,7 @@ Oui, il y a un léger décalage pour cet article, mais on reste dans l’idée !
 
 Ce bilan a deux objectifs : le premier est de me permettre de voir que, de rien, j’ai su atteindre un résultat modeste ; ensuite, cela montre en toute transparence à ceux qui voudraient se lancer que c’est possible !
 
-Les choses se passent bien, mais je rencontre un problème : le manque de temps. Comme je l’ai déjà expliqué, mon aventure freelance se déroule en parallèle d’un job tempsn plein, du coup, le temps est une denrée rare, mais un plan est en route pour régler ce problème !
+Les choses se passent bien, mais je rencontre un problème : le manque de temps. Comme je l’ai déjà expliqué, mon aventure freelance se déroule en parallèle d’un job temps plein, du coup, le temps est une denrée rare, mais un plan est en route pour régler ce problème !
 
 ## Niveau clients ?
 
@@ -30,7 +30,7 @@ J’ai eu 6 clients sur cette période, donc pas d’augmentation à ce niveau-l
 
 Ils augmentent. Ce début d’année, j’ai changé de prisme dans ma méthode de gestion de mon activité, un article est en cours de rédaction à ce sujet !
 
-Mis à part l’achat d’un MacBook en début d’année pour tester l’écosystème Apple pour du dev, je n’ai pas grand-chose comme frais. Je coucherais sur papier mon retour d'expérience à ce sujet.
+Mis à part l’achat d’un MacBook en début d’année pour tester l’écosystème Apple pour du dev, je n’ai pas grand-chose comme frais. Je mettrai sur papier mon retour d'expérience à ce sujet.
 
 Sur l’année, j’ai équipé mon logement avec un bureau et une chaise, clavier, souris, écran externe, écouteurs sans fil pour les appels, housse pour PC, batterie externe, et un ordinateur (qui reste quand même mon outil de travail initial).
 
@@ -44,7 +44,7 @@ Ceux-ci augmentent.. Il faut savoir que le bénéfice imposable de mon activité
 
 Les choses se présentent bien ! Dans le fond, mon TJM reste toujours inférieur à ce qu’on dit comme minimum pour un développeur, mais pour l’heure il me convient, car les prestations que je dois réaliser sont majoritairement des prestations d’intégrateur et de Webmaster.
 
-La chose qui personnellement m’ennuie un peu plus est que la grande majorité de mes revenus proviennent d’un client pour qui je suis en régie. C’est aussi la raison pour laquelle je constitue un fonds de roulement, afin de pouvoir amortir le choc en cas de rupture de collaboration et me laisser quelques semaines pour rebondir. Ce fonds de roulement que je ferais grossir au fil du temps.
+La chose qui personnellement m’ennuie un peu plus est que la grande majorité de mes revenus proviennent d’un client pour qui je suis en régie. C’est aussi la raison pour laquelle je constitue un fonds de roulement, afin de pouvoir amortir le choc en cas de rupture de collaboration et me laisser quelques semaines pour rebondir. Ce fonds de roulement que je ferai grossir au fil du temps.
 
 Et ici, les démarches pour trouver un second client dans une optique long-terme vont commencer.
 
@@ -79,7 +79,7 @@ Soit un revenu net mensuel de **800€**, ce revenu sera également formulé fin
 
 Fin 2023, ce revenu était de +/- 500€ sur les huit premiers mois d’activités, on peut donc déjà apercevoir une progression..
 
-On se retrouve fin 2024 pour voir si les projets ont suivi le plan établis ! 
+On se retrouve fin 2024 pour voir si les projets ont suivi le plan établi ! 
 
 dkp
 
