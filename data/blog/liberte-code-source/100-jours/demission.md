@@ -19,7 +19,7 @@ Le plan était différent, je pensais attendre, mais au final, à quoi bon ? Auj
 
 Comme on dit, **la seule chose permanente, c’est le changement**, alors c’est décidé, aujourd’hui à 17h, j’aurai démissionné !
 
-Depuis un an, je combinai mon CDI en tant que banquier responsable crédits et mon activité de freelance. C’était parfois complexe d’arriver à tenir le rythme : être actif sur les réseaux sociaux, travailler le branding personnel et satisfaire mes clients. Mais j’y arrivais. Je m’étais fixé des objectifs à atteindre avant de démissionner et une date butoir dans plus d’un an. Mais dans la vie, les plans changent...
+Depuis un an, je combinais mon CDI en tant que banquier responsable crédits et mon activité de freelance. C’était parfois complexe d’arriver à tenir le rythme : être actif sur les réseaux sociaux, travailler le branding personnel et satisfaire mes clients. Mais j’y arrivais. Je m’étais fixé des objectifs à atteindre avant de démissionner et une date butoir dans plus d’un an. Mais dans la vie, les plans changent...
 
 Face au changement, on l’accepte et on s’en sert, ou on le subit. Pour ma part, j’ai pris le changement comme un levier, le levier que j’attendais pour donner une nouvelle direction à ma vie. Alors j’ai démissionné pour poursuivre une quête simple : ma quête du bonheur.
 
