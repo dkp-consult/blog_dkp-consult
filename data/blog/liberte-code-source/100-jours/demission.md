@@ -33,6 +33,8 @@ Pour faire les choses proprement, j’ai dit qu’à la date de fin de mon préa
 
 Alors maintenant, on se pose derrière son clavier et on écrit le prochain chapitre de ma vie !
 
+*NB : Un énorme merci à Mme Renard pour son soutiens.*
+
 ^dkp
 
 - [Mail](mailto:contact@dkp-consult.be)
