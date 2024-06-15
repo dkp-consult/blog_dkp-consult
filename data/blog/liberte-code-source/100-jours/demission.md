@@ -4,7 +4,7 @@ date: '2024-06-15'
 tags: ['dev','notebook', 'story', 'lcs', '100 jours']
 draft: false
 summary: Aujourd’hui, j’ai décidé de quitter mon emploi de banquier pour me lancer dans une carrière de freelance, motivé par une quête de bonheur et de réalisation personnelle. Initialement prévu dans plus d’un an, mon plan a brusquement changé, me poussant à remettre ma lettre de démission dès aujourd’hui. Malgré les défis à venir, je me sens allégé et enthousiaste à l’idée de cette nouvelle aventure, à sortir de ma zone de confort et à me surpasser.
-images: ['/static/images/fox-coding.webp']
+images: ['/static/images/demission.webp']
 layout: PostLayout
 canonicalUrl: https://blog.dkp-consult.be/blog/liberte-code-source/100-jours/demission
 ---
