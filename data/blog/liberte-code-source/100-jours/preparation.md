@@ -1,6 +1,6 @@
 ---
 title: Liberté Code Source - La préparation
-date: '2024-06-15'
+date: '2024-06-23'
 tags: ['dev','notebook', 'story', 'lcs', '100 jours']
 draft: false
 summary: Aujourd’hui, je partage avec vous mon passage de salarié à freelance, motivé par le désir de liberté et de développement personnel. À travers cet article, je vous parle des calculs financiers, des défis et des stratégies de prospection pour préparer cette transition. Bien que cette aventure comporte des risques et des incertitudes, elle me remplit d’un sentiment de légèreté et d’excitation. Rejoignez-moi dans cette aventure sur 100 jours pour découvrir les hauts et les bas de cette nouvelle vie qui s'offre à moi !
