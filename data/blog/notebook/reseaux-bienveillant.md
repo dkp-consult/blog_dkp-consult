@@ -24,7 +24,7 @@ Grosse erreur, parce qu’au bout de 5 jours (pas à temps plein, mais au moins 
 
 Mais grâce à l’aide de la communauté sous [ce tweet](https://x.com/dkp_consult/status/1820787721847095560), merci à vous tous d’avoir pris le temps de me répondre, de me donner des infos et de proposer directement votre aide !
 
-Et un remerciement tout particulier à deux devs qui assurent grave : [@Hunfix](https://x.com/Hyunfix1) & [@LeDevNovice](https://x.com/ledevnovice), j’ai enfin la possibilité de passer aux choses sérieuses, construire le projet.
+Et un remerciement tout particulier à deux devs qui assurent grave : [@Hyunfix](https://x.com/Hyunfix1) & [@LeDevNovice](https://x.com/ledevnovice), j’ai enfin la possibilité de passer aux choses sérieuses, construire le projet.
 
 Donc, oui, j’aurais mis deux jours et fait appel à deux personnes pour seulement avoir la construction d’un repo et pouvoir coder. Je ferai un article complet sur ce projet et les difficultés rencontrées.
 
