@@ -24,7 +24,7 @@ Les choses se passent bien, mais je rencontre un problème : le manque de temps.
 
 ## Niveau clients ?
 
-J’ai eu 6 clients sur cette période, donc pas d’augmentation à ce niveau-là depuis le [dernier bilan](https://blog.dkp-consult.be/blog/liberte-code-source/lcs-2023). Sur les 6 clients, j’ai des demandes sporadiques d’un client que je facture à la prestation, deux sites vitrines déjà en place et un client en régie. Mon client initial n’a toujours pas donné suite pour la réalisation de son site, j’imagine qu’un jour ça bougera !
+J’ai eu 6 clients sur cette période, donc pas d’augmentation à ce niveau-là depuis le [dernier bilan](https://blog.dkp-consult.be/blog/liberte-code-source/lcs-2023). Sur les 6 clients, j’ai des demandes sporadiques d’un client que je facture à la prestation, deux sites vitrines déjà en place et un client en régie. Mon client initial n’a toujours pas donné suite pour la réalisation de son site, j’imagine qu’un jour ça bougera !x
 
 ## Niveau frais ?
 
