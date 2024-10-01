@@ -17,15 +17,16 @@ Il y a quelques semaines, j'ai eu l'opportunité de présenter un Ignite Talk à
 
 Une expérience intense que je partage avec vous dans **[cet article](https://blog.dkp-consult.be/blog/notebook/opentechcon) !**
 
-## Vidéo de la présentation
-
 [Voici la vidéo de mon Ignite Talk](https://youtu.be/6yndg61yzmY?si=jUJqVUfqvvPd99kd) 
+
 
 [**Lien vers toutes la journée**](https://t.co/M2q5J3UJ0M)
 
+[**Télécharger les slides en PDF**](/static/files/opentechcon_presnetation.pdf)
+
 ## Notes de présentation
 
-Ces notes détaillent ce que j'avais prévu de dire lors de ma présentation.
+Ces notes au format Markdown de ce que j'avais prévu de dire lors de ma présentation.
 
 **Notes du talk :**
 
@@ -199,12 +200,6 @@ Merci de m’avoir écouté, la participation à cette conf était aussi un déf
 
 ---
 ```
-
-
-
-## Slides de la présentation
-
-[**Télécharger les slides en PDF**](/static/files/opentechcon_presnetation.pdf)
 
 ## Conclusion
 
