@@ -4,7 +4,7 @@ date: '2024-10-01'
 tags: ['dev','notebook', 'conference', 'talk']
 draft: false
 summary: Dans cet article, je partage les éléments essentiels de mon Ignite Talk donné à l’OpenTechCon. Retrouvez la vidéo de la présentation, les notes clés, ainsi que les slides utilisées lors de l’événement. Une immersion rapide dans mon parcours et mes réflexions partagées lors de cette conférence tech.
-images: ['/static/images/opentechcon_notes.jpg']
+images: ['/static/images/opentechcon_notes.jpeg']
 layout: PostLayout
 canonicalUrl: https://blog.dkp-consult.be/blog/notebook/opentechcon-ignitetalk
 ---
