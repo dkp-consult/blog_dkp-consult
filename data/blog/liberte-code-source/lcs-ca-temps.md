@@ -59,7 +59,7 @@ De plus, je compte également mettre en place un ou plusieurs projets que je doc
 En intégrant ces indicateurs, j’espère inspirer d’autres freelances à partager leur parcours de manière plus nuancée, et qui sait, à lancer de nouvelles discussions sur la rentabilité et le temps passé.
 
 
-dkp
+^dkp
 
 - [Mail](mailto:contact@dkp-consult.be)
 - [Twitter](https://twitter.com/dkp_consult)
