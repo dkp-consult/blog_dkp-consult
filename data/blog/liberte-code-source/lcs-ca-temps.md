@@ -48,6 +48,8 @@ Voici donc le détail de mon CA mensuel avec le nombre d’heures travaillées p
 
 Je sais que l’idée de calculer mon TJM va venir, et dans certains cas, c’est pertinent. Mais ici, cela reste plus complexe. Entre les prestations rapides, les missions au forfait, et certaines heures non rémunérées ou facturées à prix coûtant, chaque mois est assez unique. C’est pourquoi j’ai préféré rester sur une indication globale pour le temps de travail et le CA.
 
+*A savoir que j'ai deux missions en régie, une pour un taux horaire de 35€ et la seconde pour 40€.*
+
 Cet indicateur ne vise pas à être une règle universelle, c’est un étalon qui me permet de me situer et de voir où je peux m’améliorer. Chacun a ses propres objectifs et rythme, et c’est ce qui rend les parcours de freelances si uniques.
 
 **Suggestion** : pour ceux qui suivent ce type d’indicateur, il peut être intéressant de le relier à ses propres objectifs annuels ou de rentabilité pour voir s’il aide à les atteindre. Cela permet d’ajuster sa stratégie au fur et à mesure de l’année.
