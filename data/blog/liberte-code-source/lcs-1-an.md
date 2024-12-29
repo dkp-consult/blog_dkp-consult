@@ -1,7 +1,7 @@
 ---
 title: Liberté code source - 1 an, quel CA ?
 date: '2024-05-07'
-tags: ['dev','notebook', 'story', 'lcs']
+tags: ['dev','notebook', 'story', 'lcs', 'freelance']
 draft: false
 summary: Après un an de freelance, j'ai collaboré avec différents clients, générant un chiffre d'affaires de 19,2 K€, avec un bénéfice net de 9,6 K€. Les défis incluaient la gestion du temps avec un emploi alimentaire parallèle, des efforts pour maintenir une activité secondaire propre et minimiser les dépenses. Les perspectives incluent l'acquisition de nouveaux clients pour renforcer la pérennité de l'entreprise.
 images: ['/static/images/fox-coding.webp']

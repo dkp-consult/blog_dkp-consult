@@ -1,7 +1,7 @@
 ---
 title: 'Liberté code source : le prisme de l’entrepreneur'
 date: '2024-12-08'
-tags: ['dev', 'productivité', 'gestion', 'finance', 'story', 'lcs']
+tags: ['dev', 'productivité', 'gestion', 'finance', 'story', 'lcs', 'freelance']
 draft: false
 summary: Dans cet article, je partage mon retour d'expérience sur l'évolution de ma gestion d’activité en tant que freelance. Partant d'une gestion manuelle des devis, factures et obligations fiscales, j'ai progressivement adopté un SaaS pour optimiser mon temps et mon énergie. Ce changement de prisme, inspiré par le calcul de rentabilité de mes tâches, m'a permis de valoriser mon temps et de me concentrer davantage sur mon cœur de métier. J'explique ici pourquoi externaliser ou investir dans des outils peut être un gain stratégique pour tout entrepreneur cherchant à équilibrer rentabilité et qualité de vie.
 images: ['/static/images/lcs_prisme_entrepreneur.webp']

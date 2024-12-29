@@ -1,7 +1,7 @@
 ---
 title: Le CA, c’est bien, mais ca donne quoi en nombre d'heures ?!
 date: '2024-11-05'
-tags: ['dev','notebook', 'story', 'lcs', 'finance']
+tags: ['dev','notebook', 'story', 'lcs', 'finance', 'freelance']
 draft: false
 summary: Je partage ici mon chiffre d’affaires mensuel pour 2024 avec le temps de travail associé, pour montrer la réalité de la vie de freelance au-delà des seuls revenus. Comparer les gains sans inclure le temps passé empêche une vue d’ensemble, d’où l’importance de cet indicateur. Ce suivi me permet d’évaluer ma rentabilité et d’ajuster mes tarifs tout en recherchant un équilibre entre satisfaction et revenus. J’espère inspirer d’autres freelances à considérer le temps comme un facteur essentiel de leur stratégie et à nourrir les discussions sur la rentabilité et le temps passé.
 images: ['/static/images/renard_ca_bilan.webp']

@@ -1,7 +1,7 @@
 ---
 title: Liberté code source - User case
 date: '2024-05-17'
-tags: ['dev','notebook', 'story', 'lcs', 'user case']
+tags: ['dev','notebook', 'story', 'lcs', 'user case', 'freelance']
 draft: false
 summary: Découvrez comment j'ai aidé un ami à repenser sa stratégie commerciale pour son site vitrine B2B. Au lieu de se concentrer uniquement sur le design et le référencement, nous avons travaillé sur l'amélioration de la prise de contact, l'innovation et l'élargissement de sa cible client. Lisez l'article complet pour en savoir plus !
 images: ['/static/images/abstract-illustration.webp']
