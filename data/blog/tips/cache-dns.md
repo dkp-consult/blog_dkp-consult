@@ -1,5 +1,5 @@
 ---
-title: 'Vider le cache DNS du navigateur et de la machine'
+title: 'Vider le cache DNS'
 date: '2025-01-16'
 tags: ['tips', 'dns', 'navigateur', 'systèmes']
 draft: false
