@@ -72,7 +72,7 @@ module.exports = withBundleAnalyzer({
       use: ['@svgr/webpack'],
     })
 
-    // Temporarily disabled Preact during migration
+    // Preact disabled - incompatible with Next.js 15 + React 18
     // if (!dev && !isServer) {
     //   // Replace React with Preact only in client production build
     //   Object.assign(config.resolve.alias, {
