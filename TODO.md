@@ -1,5 +1,0 @@
-- Repenser la présentation globale ; 
-- Mise en place d'un nouveau Layout pour le notebook ; 
-- Nettoyer le repo ; 
-- Ajouter une pages sur d'autres dev intéressant à suivre ; 
-- Refaire la description ; 
