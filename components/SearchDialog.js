@@ -75,8 +75,14 @@ export const SearchProvider = ({ children }) => {
 
   useEffect(() => {
     if (!open) return
-    inputRef.current?.focus()
-    if (indexRef.current) return
+    const originalOverflow = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    inputRef.current?.focus({ preventScroll: true })
+    if (indexRef.current) {
+      return () => {
+        document.body.style.overflow = originalOverflow
+      }
+    }
     let cancelled = false
     setLoading(true)
     fetch('/search-index.json')
@@ -90,6 +96,7 @@ export const SearchProvider = ({ children }) => {
       })
     return () => {
       cancelled = true
+      document.body.style.overflow = originalOverflow
     }
   }, [open])
 
@@ -123,7 +130,7 @@ export const SearchProvider = ({ children }) => {
           role="dialog"
           aria-modal="true"
           aria-label="Recherche"
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4"
+          className="fixed inset-0 z-50 flex items-start justify-center bg-black/50 p-4 pt-[15vh] sm:items-center sm:pt-4"
           onClick={close}
         >
           <div
@@ -195,9 +202,9 @@ export const SearchBar = ({ placeholder = 'Rechercher un article…' }) => {
     <button
       type="button"
       onClick={() => setOpen(true)}
-      className="group flex w-full max-w-xl items-center gap-3 rounded-lg border border-gray-200 bg-white px-4 py-3 text-left text-gray-500 shadow-sm transition hover:border-primary-400 hover:shadow-md dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-primary-500"
+      className="group flex w-full max-w-xl items-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-left text-gray-500 transition hover:border-primary-400 hover:shadow-md dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-primary-500 sm:gap-3 sm:px-4 sm:py-3 sm:shadow-sm"
     >
-      <LoupeIcon className="h-5 w-5 flex-shrink-0" />
+      <LoupeIcon className="h-4 w-4 flex-shrink-0 sm:h-5 sm:w-5" />
       <span className="flex-1 text-sm sm:text-base">{placeholder}</span>
       <kbd className="hidden rounded border border-gray-300 bg-gray-100 px-1.5 py-0.5 text-xs font-mono text-gray-500 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 sm:inline">
         ⌘K

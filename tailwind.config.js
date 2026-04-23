@@ -1,6 +1,20 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
+// Palette orange DKP-CONSULT, ancrée sur #F1943D (logo)
+const dkpOrange = {
+  50: '#fef5ea',
+  100: '#fde4c7',
+  200: '#fbcf95',
+  300: '#f7b664',
+  400: '#f4a34d',
+  500: '#f1943d',
+  600: '#d97d28',
+  700: '#b2631f',
+  800: '#864a1a',
+  900: '#583214',
+}
+
 module.exports = {
   experimental: {
     optimizeUniversalDefaults: true,
@@ -28,7 +42,7 @@ module.exports = {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.teal,
+        primary: dkpOrange,
         gray: colors.neutral,
       },
       typography: (theme) => ({
@@ -63,7 +77,7 @@ module.exports = {
               backgroundColor: theme('colors.gray.800'),
             },
             code: {
-              color: theme('colors.pink.500'),
+              color: theme('colors.primary.700'),
               backgroundColor: theme('colors.gray.100'),
               paddingLeft: '4px',
               paddingRight: '4px',
@@ -131,6 +145,7 @@ module.exports = {
               backgroundColor: theme('colors.gray.800'),
             },
             code: {
+              color: theme('colors.primary.400'),
               backgroundColor: theme('colors.gray.800'),
             },
             details: {

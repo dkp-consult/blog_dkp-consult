@@ -3,6 +3,7 @@ name: Pierre Debski
 avatar: /static/images/picsofme.jpg
 occupation: Freelance dev & webmaster
 company: Freelancing @dkp-consult
+location: Visé, Belgique
 email: contact@dkp-consult.be
 twitter: https://twitter.com/dkp_consult
 linkedin: https://www.linkedin.com/in/pierre-debski/

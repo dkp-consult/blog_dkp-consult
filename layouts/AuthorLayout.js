@@ -3,37 +3,79 @@ import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 
 export default function AuthorLayout({ children, frontMatter }) {
-  const { name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter
+  const { name, avatar, occupation, company, location, email, twitter, linkedin, github } =
+    frontMatter
 
   return (
     <>
       <PageSEO title={`A propos - ${name}`} description={`A propos - ${name}`} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Qui suis-je ?
-          </h1>
-        </div>
-        <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-          <div className="flex flex-col items-center pt-8">
+
+      <section className="pt-10 pb-8 text-center sm:pt-16 sm:pb-12">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary-600 dark:text-primary-400">
+          Qui suis-je ?
+        </p>
+        <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">
+          {name}
+        </h1>
+        {occupation && (
+          <p className="mt-3 text-lg text-gray-600 dark:text-gray-400">{occupation}</p>
+        )}
+      </section>
+
+      <div className="border-t border-gray-200 pt-10 dark:border-gray-800">
+        <div className="grid gap-10 xl:grid-cols-3 xl:gap-12">
+          <aside className="flex flex-col items-center xl:items-start">
             <Image
               src={avatar}
-              alt="avatar"
+              alt={name}
               width={192}
               height={192}
-              className="h-48 w-48 rounded-full"
+              className="h-40 w-40 rounded-full ring-4 ring-primary-100 dark:ring-primary-900/40"
             />
-            <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
-            <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
-            <div className="text-gray-500 dark:text-gray-400">{company}</div>
-            <div className="flex space-x-3 pt-6">
+
+            <dl className="mt-8 w-full max-w-xs space-y-4 text-sm xl:max-w-none">
+              {company && (
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">
+                    Activité
+                  </dt>
+                  <dd className="mt-1 text-gray-700 dark:text-gray-300">{company}</dd>
+                </div>
+              )}
+              {location && (
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">
+                    Basé à
+                  </dt>
+                  <dd className="mt-1 text-gray-700 dark:text-gray-300">{location}</dd>
+                </div>
+              )}
+              {email && (
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">
+                    Contact
+                  </dt>
+                  <dd className="mt-1">
+                    <a
+                      href={`mailto:${email}`}
+                      className="text-gray-700 hover:text-primary-600 dark:text-gray-300 dark:hover:text-primary-400"
+                    >
+                      {email}
+                    </a>
+                  </dd>
+                </div>
+              )}
+            </dl>
+
+            <div className="mt-6 flex space-x-3">
               <SocialIcon kind="mail" href={`mailto:${email}`} />
               <SocialIcon kind="github" href={github} />
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="twitter" href={twitter} />
             </div>
-          </div>
-          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
+          </aside>
+
+          <div className="prose max-w-none dark:prose-dark xl:col-span-2">{children}</div>
         </div>
       </div>
     </>
