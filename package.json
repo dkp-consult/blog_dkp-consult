@@ -6,7 +6,6 @@
     "node": ">=22.0.0"
   },
   "scripts": {
-    "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",
     "build": "next build && node ./scripts/generate-sitemap",
     "serve": "next start",
@@ -16,7 +15,6 @@
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",
-    "@mailchimp/mailchimp_marketing": "^3.0.58",
     "@next/bundle-analyzer": "^12.1.4",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/postcss": "^4.1.13",
@@ -61,11 +59,8 @@
     "husky": "^6.0.0",
     "inquirer": "^8.1.1",
     "lint-staged": "^11.0.0",
-    "next-remote-watch": "^1.0.0",
     "prettier": "^2.5.1",
-    "prettier-plugin-tailwindcss": "^0.1.4",
-    "socket.io": "^4.4.0",
-    "socket.io-client": "^4.4.0"
+    "prettier-plugin-tailwindcss": "^0.1.4"
   },
   "lint-staged": {
     "*.+(js|jsx|ts|tsx)": [
