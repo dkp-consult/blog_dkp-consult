@@ -10,6 +10,7 @@ import Head from 'next/head'
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
+import { SearchProvider } from '@/components/SearchDialog'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -18,9 +19,11 @@ export default function App({ Component, pageProps }) {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
       <Analytics />
-      <LayoutWrapper>
-        <Component {...pageProps} />
-      </LayoutWrapper>
+      <SearchProvider>
+        <LayoutWrapper>
+          <Component {...pageProps} />
+        </LayoutWrapper>
+      </SearchProvider>
     </ThemeProvider>
   )
 }
