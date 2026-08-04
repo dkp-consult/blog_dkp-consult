@@ -53,6 +53,9 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  // Traces the dependencies actually reached at runtime and emits a standalone
+  // server, instead of shipping the full node_modules in the image.
+  output: 'standalone',
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {

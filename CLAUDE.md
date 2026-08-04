@@ -31,6 +31,8 @@ Node `>=22` is required (see `engines`). Test coverage is intentionally thin: it
 
 **Preact swap in production.** `next.config.js` webpack override aliases `react`/`react-dom` to `preact/compat` for client production bundles only (not dev, not SSR). Any React API that isn't Preact-compatible will build fine but break at runtime in prod — test prod builds when using less-common React features.
 
+**Standalone output.** `next.config.js` sets `output: 'standalone'`, so `next build` also emits `.next/standalone` — a self-contained server with only the traced dependencies, used by the `Dockerfile` runner stage. That stage copies neither `public/` nor `.next/static` automatically; both are copied by hand, and `public/` must come from the builder stage because the build writes gitignored artefacts into it. `npm run serve` (`next start`) still works locally and is unaffected.
+
 **Content Security Policy.** `next.config.js` sets a strict CSP in response headers. Adding analytics, embeds, or third-party scripts requires editing `ContentSecurityPolicy` there (the `siteMetadata.analytics` and `siteMetadata.comment` objects are currently empty; the newsletter feature has been removed from this fork).
 
 ## Conventions
