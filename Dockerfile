@@ -3,15 +3,15 @@
 FROM node:22-bookworm-slim AS builder
 WORKDIR /app
 
-# `prepare` runs `husky install`, which throws without a .git directory — and
-# .dockerignore deliberately keeps .git out of the build context. Dropping the
-# script is more honest than relying on `git` being absent from the slim image.
 # node:22-bookworm-slim ships npm 10.9.8, but package-lock.json is written by
 # npm 11 and npm 10 refuses it ("Missing: esbuild@0.28.1 from lock file").
 # Pinning the same major keeps `npm ci` validating the exact committed tree
 # instead of silently falling back to a looser install.
 RUN npm install -g npm@11.17.0
 
+# `prepare` runs `husky install`, which throws without a .git directory — and
+# .dockerignore deliberately keeps .git out of the build context. Dropping the
+# script is more honest than relying on `git` being absent from the slim image.
 COPY package.json package-lock.json ./
 RUN npm pkg delete scripts.prepare && npm ci
 
@@ -27,16 +27,21 @@ FROM node:22-bookworm-slim AS runner
 WORKDIR /app
 ENV NODE_ENV=production
 
-COPY --from=builder --chown=node:node /app/package.json /app/package-lock.json ./
-COPY --from=builder --chown=node:node /app/node_modules ./node_modules
-COPY --from=builder --chown=node:node /app/next.config.js ./
-COPY --from=builder --chown=node:node /app/data ./data
-COPY --from=builder --chown=node:node /app/.next ./.next
+# Standalone emits a server with only the traced dependencies, but it copies
+# neither public/ nor .next/static — both have to be brought in by hand.
+COPY --from=builder --chown=node:node /app/.next/standalone ./
+COPY --from=builder --chown=node:node /app/.next/static ./.next/static
 COPY --from=builder --chown=node:node /app/public ./public
 
 # next/image optimises on demand and writes under .next/cache at runtime, so the
-# app must own that tree — hence the --chown above rather than running as root.
+# directory must exist and belong to the app rather than to root. This is also
+# the mount point for the persistent cache volume.
+RUN mkdir -p .next/cache && chown -R node:node .next
 USER node
 
+# server.js binds to the HOSTNAME env var; without it the container would only
+# listen on localhost and be unreachable from outside.
+ENV HOSTNAME=0.0.0.0
+ENV PORT=3000
 EXPOSE 3000
-CMD ["npm", "run", "serve"]
+CMD ["node", "server.js"]
