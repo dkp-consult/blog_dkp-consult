@@ -1,0 +1,28 @@
+# Rebuilt inside the image
+node_modules
+.next
+
+# VCS and tooling that the build does not need
+.git
+.github
+.husky
+.idea
+.claude
+.vercel
+
+# Tests are not run inside the image
+vitest.config.mjs
+**/*.test.js
+coverage
+
+# Docs and local noise
+README.md
+REFONTE-UI.md
+LICENSE
+.DS_Store
+*.log
+
+# Never ship local env files
+.env
+.env.local
+.env.*.local
