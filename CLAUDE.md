@@ -12,10 +12,12 @@ Personal blog of Pierre Debski (dkp-consult), written in French (`fr-be`). Forke
 - `npm run build` — `next build` followed by `node scripts/generate-sitemap.js`. The sitemap script reads `public/` + `data/blog/**` and writes `public/sitemap.xml`, so build output depends on blog frontmatter (`draft: true` is excluded).
 - `npm run serve` — `next start` against the production build.
 - `npm run lint` — `next lint --fix` scoped to `pages`, `components`, `lib`, `layouts`, `scripts` (matches `next.config.js` `eslint.dirs`). Husky + lint-staged also run `eslint --fix` and `prettier --write` on staged files.
+- `npm run test` — Vitest, single run (`vitest run`). `npm run test:watch` for the interactive mode. Config in `vitest.config.mjs`: `node` environment, path aliases mirrored from `jsconfig.json`, and only `*.test.js` files under `lib`, `scripts`, `components`, `layouts`, `pages` are collected. Tests are colocated with the code they cover and import `describe`/`it`/`expect` from `vitest` explicitly — globals are deliberately not enabled, so no ESLint globals declaration is needed.
+- `npm run check` — full gate: `lint` → `test` → `build`. Note it runs `next lint --fix`, so it may rewrite files. There is no typecheck step (pure JS) and no `format` script.
 - `npm run analyze` — production build with `@next/bundle-analyzer`.
 - `node scripts/compose.js` — interactive prompt to scaffold a new post in `data/blog/` with pre-filled frontmatter.
 
-Node `>=22` is required (see `engines`). No test suite is configured.
+Node `>=22` is required (see `engines`). Test coverage is intentionally thin: it pins the invariants behind build-time artifacts (RSS escaping, slug shape, post ordering), not the UI.
 
 ## Architecture
 
