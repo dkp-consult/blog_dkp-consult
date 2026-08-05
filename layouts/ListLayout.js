@@ -1,3 +1,4 @@
+import Image from '@/components/Image'
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import Pagination from '@/components/Pagination'
@@ -36,13 +37,16 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                     tabIndex={-1}
                     className="order-last flex-shrink-0 xl:order-first xl:flex xl:flex-col xl:self-stretch xl:pt-[6px]"
                   >
-                    <div className="h-28 w-28 overflow-hidden rounded-lg sm:h-32 sm:w-32 xl:h-auto xl:w-full xl:flex-1">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
+                    <div className="relative h-28 w-28 overflow-hidden rounded-lg sm:h-32 sm:w-32 xl:h-auto xl:w-full xl:flex-1">
+                      {/* `sizes` mirrors the widths this box actually renders at:
+                          112px, 128px from sm, and the 240px grid column from xl.
+                          Without it next/image would serve a full-viewport variant. */}
+                      <Image
                         src={cover}
                         alt=""
-                        className="h-full w-full object-cover"
-                        loading="lazy"
+                        fill
+                        sizes="(min-width: 1280px) 240px, (min-width: 640px) 128px, 112px"
+                        className="object-cover"
                       />
                     </div>
                     <time
