@@ -7,11 +7,19 @@ import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/l
 const DEFAULT_LAYOUT = 'PostLayout'
 
 export async function getStaticPaths() {
-  const posts = getFiles('blog')
+  // In production, draft posts must not be generated at all. Rendering an
+  // "Under Construction" title is not enough: getStaticProps still serialises
+  // the compiled MDX into __NEXT_DATA__, where anyone can read it. Skipping the
+  // path makes the URL a 404 instead. Drafts stay reachable in dev.
+  const slugs =
+    process.env.NODE_ENV === 'production'
+      ? (await getAllFilesFrontMatter('blog')).map((post) => post.slug)
+      : getFiles('blog').map(formatSlug)
+
   return {
-    paths: posts.map((p) => ({
+    paths: slugs.map((slug) => ({
       params: {
-        slug: formatSlug(p).split('/'),
+        slug: slug.split('/'),
       },
     })),
     fallback: false,
