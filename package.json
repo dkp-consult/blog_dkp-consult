@@ -12,6 +12,7 @@
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
+    "lint:ci": "next lint --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "test": "vitest run",
     "test:watch": "vitest",
     "check": "npm run lint && npm run test && npm run build",
