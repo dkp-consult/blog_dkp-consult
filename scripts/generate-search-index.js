@@ -19,7 +19,7 @@ function stripMarkdown(content) {
     .trim()
 }
 
-;(async () => {
+async function generateSearchIndex() {
   const files = await globby(['data/blog/**/*.md', 'data/blog/**/*.mdx'])
   const entries = []
 
@@ -46,4 +46,12 @@ function stripMarkdown(content) {
   const outPath = path.join(root, 'public', 'search-index.json')
   fs.writeFileSync(outPath, JSON.stringify(entries))
   console.log(`Search index written to ${outPath} (${entries.length} posts)`)
-})()
+}
+
+// Only run when invoked as a script, so importing stripMarkdown in a test does
+// not rewrite public/search-index.json as a side effect.
+if (require.main === module) {
+  generateSearchIndex()
+}
+
+module.exports = { stripMarkdown, generateSearchIndex }
