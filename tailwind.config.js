@@ -16,9 +16,6 @@ const dkpOrange = {
 }
 
 module.exports = {
-  experimental: {
-    optimizeUniversalDefaults: true,
-  },
   content: [
     './pages/**/*.js',
     './components/**/*.js',
