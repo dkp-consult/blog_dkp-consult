@@ -6,6 +6,8 @@ const siteMetadata = require('../data/siteMetadata')
 
 ;(async () => {
   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
+  // globby does not guarantee an order, so two builds of the same content could
+  // emit the same URLs in a different sequence. Sorting keeps the output stable.
   const pages = await globby([
     'pages/*.js',
     'pages/*.tsx',
@@ -16,6 +18,7 @@ const siteMetadata = require('../data/siteMetadata')
     '!pages/_*.tsx',
     '!pages/api',
   ])
+  pages.sort()
 
   const sitemap = `
         <?xml version="1.0" encoding="UTF-8"?>
