@@ -1,3 +1,4 @@
+import Image from '@/components/Image'
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import { SearchBar } from '@/components/SearchDialog'
@@ -67,13 +68,16 @@ export default function Home({ posts }) {
                     tabIndex={-1}
                     className="order-last flex-shrink-0 xl:order-first xl:flex xl:flex-col xl:self-stretch xl:pt-[6px]"
                   >
-                    <div className="h-28 w-28 overflow-hidden rounded-lg sm:h-32 sm:w-32 xl:h-auto xl:w-full xl:flex-1">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
+                    <div className="relative h-28 w-28 overflow-hidden rounded-lg sm:h-32 sm:w-32 xl:h-auto xl:w-full xl:flex-1">
+                      {/* Same box as ListLayout: 112px, 128px from sm, 240px grid
+                          column from xl. `sizes` must match or next/image serves
+                          a full-viewport variant. */}
+                      <Image
                         src={cover}
                         alt=""
-                        className="h-full w-full object-cover"
-                        loading="lazy"
+                        fill
+                        sizes="(min-width: 1280px) 240px, (min-width: 640px) 128px, 112px"
+                        className="object-cover"
                       />
                     </div>
                     <time
