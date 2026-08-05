@@ -1,0 +1,36 @@
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      # Node 22 to match `engines` and the node:22-bookworm-slim image the
+      # Dockerfile builds from, so CI fails on what production would fail on.
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      # node:22 ships npm 10, which rejects a lockfile written by npm 11 with a
+      # message that points at the lockfile rather than at the npm version.
+      # The version is read from `packageManager` so it is declared once.
+      - name: Pin npm to the version that writes the lockfile
+        run: npm install -g "npm@$(node -p "require('./package.json').packageManager.split('@')[1]")"
+
+      - run: npm ci
+
+      # lint:ci rather than lint: the latter runs `next lint --fix` and would
+      # rewrite files, turning a real violation into a silent pass.
+      - run: npm run lint:ci
+
+      - run: npm run test
+
+      - run: npm run build
