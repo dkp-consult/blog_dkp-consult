@@ -5,7 +5,6 @@ node_modules
 # VCS and tooling that the build does not need
 .git
 .github
-.husky
 .idea
 .claude
 
