@@ -9,11 +9,8 @@ WORKDIR /app
 # instead of silently falling back to a looser install.
 RUN npm install -g npm@11.17.0
 
-# `prepare` runs `husky install`, which throws without a .git directory — and
-# .dockerignore deliberately keeps .git out of the build context. Dropping the
-# script is more honest than relying on `git` being absent from the slim image.
 COPY package.json package-lock.json ./
-RUN npm pkg delete scripts.prepare && npm ci
+RUN npm ci
 
 COPY . .
 
